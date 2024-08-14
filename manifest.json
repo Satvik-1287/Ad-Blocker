@@ -1,0 +1,21 @@
+{
+    "name": "Adblocker",
+    "version": "1.0",
+    "description": "This extension removes unwanted ads from all websites.",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "manifest_version": 2
+}
